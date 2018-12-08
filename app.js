@@ -875,7 +875,7 @@ function openServerSelector() {
 			innerHTML: "Original server",
 			style: "width: 100%; height: 50%",
 			onclick: () => {
-				w.options.serverAddress = "ws://enigmatic-reaches-31002.herokuapp.com/";
+				w.options.serverAddress = "ws://oofe4.herokuapp.com";
 				w.net.connect();
 				win.wm.delWindow(win);
 				w.options.oldserver = true;
