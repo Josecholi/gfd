@@ -195,13 +195,13 @@ var options = exports.options = (0, _misc.propertyDefaults)(userOptions, {
 		default: true,
 		title: 'Official server',
 		proto: 'old',
-		url: 'ws://enigmatic-reaches-31002.herokuapp.com'
+		url: 'ws://oofe4.herokuapp.com/'
 '
 	}, {
 		default: false,
 		title: 'Localhost',
 		proto: 'old',
-		url: 'ws://enigmatic-reaches-31002.herokuapp.com
+		url: 'ws://oofe4.herokuapp.com/
 ',
 		maxRetries: 1
 	}], // The server address that websockets connect to
